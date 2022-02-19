@@ -38,7 +38,7 @@ public class PopulateData {
 	@Autowired
 	UsersService userRep;
 	
-	@PostConstruct
+	//@PostConstruct
 	public void load() {
 		
 		
