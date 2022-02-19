@@ -1,0 +1,14 @@
+package com.spring.selecao.serviceImpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.spring.selecao.repository.TasksRepository;
+import com.spring.selecao.service.TasksService;
+
+@Service
+public class TasksServiceImpl implements TasksService{
+
+	@Autowired
+	TasksRepository tasksRepository;
+	
+}

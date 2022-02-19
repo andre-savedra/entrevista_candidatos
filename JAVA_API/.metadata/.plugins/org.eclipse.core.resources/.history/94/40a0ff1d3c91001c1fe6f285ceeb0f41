@@ -1,0 +1,72 @@
+package com.spring.selecao.populateData;
+
+import javax.annotation.PostConstruct;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.spring.selecao.model.Jobs;
+import com.spring.selecao.model.Status;
+import com.spring.selecao.service.EnviromentService;
+import com.spring.selecao.service.JobsService;
+import com.spring.selecao.service.StatusService;
+import com.spring.selecao.service.TasksService;
+import com.spring.selecao.service.UsersService;
+
+@Component
+public class PopulateData {
+	
+	@Autowired
+	EnviromentService enviromentsRep;
+	
+	@Autowired
+	JobsService jobRep;
+	
+	@Autowired
+	StatusService statusRep;
+	
+	@Autowired
+	TasksService tasksRep;
+	
+	@Autowired
+	UsersService userRep;
+	
+	@PostConstruct
+	public void load() {
+		
+		
+		Jobs job1 = new Jobs();
+		job1.setLevel(10);
+		job1.setDescription("Analista");
+		jobRep.saveJob(job1);
+		
+		Jobs job2 = new Jobs();
+		job2.setLevel(5);
+		job2.setDescription("Docente");
+		jobRep.saveJob(job2);
+		
+		Jobs job3 = new Jobs();
+		job3.setLevel(20);
+		job3.setDescription("Coordenador");
+		jobRep.saveJob(job3);
+		
+				
+		Status sts1 = new Status();
+		sts1.setDescription("Iniciada");
+		statusRep.saveStatus(sts1);
+		
+		Status sts2 = new Status();
+		sts2.setDescription("Em andamento");
+		statusRep.saveStatus(sts2);
+		
+		Status sts3 = new Status();
+		sts3.setDescription("Finalizada");
+		statusRep.saveStatus(sts3);
+		
+		
+		
+		
+		
+		
+	}
+}

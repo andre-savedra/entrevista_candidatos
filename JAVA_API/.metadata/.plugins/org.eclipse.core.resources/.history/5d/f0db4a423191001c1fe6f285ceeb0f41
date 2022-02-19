@@ -1,0 +1,9 @@
+package com.spring.selecao.model;
+
+import java.util.List;
+
+public interface TasksService {
+	public Tasks findTasksById(Long id);
+	public List<Tasks> findAllTasks();
+	public void saveTask(Tasks task);
+}

@@ -1,0 +1,5 @@
+package com.spring.selecao.model;
+
+public class Cargos {
+
+}

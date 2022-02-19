@@ -1,0 +1,5 @@
+package com.spring.selecao.repository;
+
+public interface TasksRepository {
+
+}

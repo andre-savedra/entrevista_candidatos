@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.service.EnviromentService"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.repository.EnviromentRepository"/>
+    <fullyQualifiedTypeName name="javax.persistence.SecondaryTable"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.repository.JobsRepository"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.repository.StatusRepository"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.repository.TasksRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.repository.UsersRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.service.JobsService"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.service.StatusService"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.service.TasksService"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.service.UsersService"/>
+    <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.model.Jobs"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.model.Status"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.model.Enviroments"/>
+    <fullyQualifiedTypeName name="com.spring.selecao.model.Users"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>
