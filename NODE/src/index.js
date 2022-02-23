@@ -10,11 +10,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Conecta ao banco
-mongoose.connect('mongodb://localhost/b2wbruno');
+mongoose.connect('mongodb://localhost/teste');
 var db = mongoose.connection;
 
 
-app.get('/', (req, res) => res.send('TESTE B2W DIGITAL - BRUNO ALVARES DE MIRANDA'));
+app.get('/', (req, res) => res.send('TESTE'));
 
 app.use('/b2w', apiRoutes)
 
